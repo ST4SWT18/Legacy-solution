@@ -12,7 +12,7 @@ namespace Legacy_solution
 
             ecs.SetThreshold(20);
 
-            ecs.Regulate();
+            ecs.Regulate(); //test
         }
     }
 }
