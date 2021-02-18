@@ -1,10 +1,10 @@
 ﻿namespace Legacy_solution
 {
-    public class FakeHeater:IHeater
+    public class FakeHeaterFalse:IHeater
     {
         public bool RunSelfTest()
         {
-            throw new System.NotImplementedException();
+            return false;
         }
 
         public void TurnOn()

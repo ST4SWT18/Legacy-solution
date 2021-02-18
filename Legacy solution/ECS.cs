@@ -11,6 +11,7 @@
             SetThreshold(thr);
             TempSensor = new TempSensor();
             _heater = heater;
+
         }
 
         public void Regulate()
@@ -33,14 +34,14 @@
             return _threshold;
         }
 
-        public int GetCurTemp()
+        public int GetCurTemp(ITempSensor tempSensor)
         {
-            return TempSensor.GetTemp();
+            return tempSensor.GetTemp();
         }
 
-        public bool RunSelfTest()
+        public bool RunSelfTest(ITempSensor tempSensor,IHeater heater)
         {
-            return TempSensor.RunSelfTest() && _heater.RunSelfTest();
+            return tempSensor.RunSelfTest() && heater.RunSelfTest();
         }
     }
 }
