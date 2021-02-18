@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Legacy solution", "Legacy solution\Legacy solution.csproj", "{DB30A8B1-5B33-4AC3-BF84-C0857DDA1CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Legacy_solution", "Legacy solution\Legacy_solution.csproj", "{DB30A8B1-5B33-4AC3-BF84-C0857DDA1CD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacySolution.UnitTest", "LegacySolution.UnitTest\LegacySolution.UnitTest.csproj", "{D7A88BC2-9E5B-4589-BFDC-5AF59F7EDA37}"
 EndProject
